@@ -1,0 +1,33 @@
+.work {
+    margin-top: 15rem;
+    &__list {
+        margin-top: 10rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: calc(33.33% - 4.7rem);
+        text-align: center;
+        border: 2px solid #f3f3f3;
+        padding: 4rem 3rem;
+    }
+    &__img {
+        margin-bottom: 4rem;
+        transition: ease;
+    }
+    &__title {
+        font-size: 2.2rem;
+        line-height: 3rem;
+        font-weight: 550;
+    }
+    &__description {
+        margin: 3rem 0;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+

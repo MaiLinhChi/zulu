@@ -1,0 +1,24 @@
+.header {
+    @include flex(center);
+    margin-top: 4rem;
+    &__menu {
+        margin-left: 20rem;
+        @include flex();
+    }
+    &__item {
+        &:not(:first-child) {
+            margin-left: 8rem;
+        }
+        &:hover .header__item-link {
+            color: $primary-color;
+        }
+        &-link {
+            color: $text-color;
+            font-size: 1.6rem;
+            transition: 0.3s ease-in-out;
+        }
+    }
+    &__account {
+        margin-left: auto;
+    }
+}

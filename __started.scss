@@ -1,0 +1,26 @@
+.started {
+    margin-top: 10rem;
+    &-contain {
+        max-width: 90rem;
+        background-color: #fbfbfb;
+        margin: 0 auto;
+        text-align: center;
+        padding: 6rem 2rem;
+        position: relative;
+        border-radius: 2rem;
+    }
+    &__descr {
+        width: 24rem;
+        margin: 4rem auto;
+    }
+    &__img-smile {
+        position: absolute;
+        right: -4rem;
+        top: -4rem;
+    }
+    &__img-cmt {
+        position: absolute;
+        bottom: 0;
+        left: 2rem;
+    }
+}

@@ -1,0 +1,17 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15rem;
+    &__info {
+        width: 35%;
+    }
+    &__img {
+        width: 65%;
+        transform: translateX(5rem);
+    }
+    &__title {
+        font-size: 6rem;
+        line-height: 8rem;
+        font-weight: 700;
+    }
+}

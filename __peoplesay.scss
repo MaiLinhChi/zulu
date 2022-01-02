@@ -1,0 +1,62 @@
+.people-say {
+    margin-top: 15rem;
+}
+
+.cards__list {
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__item {
+    width: calc(33.33% - 4.6rem);
+    border: 2px solid #f3f3f3;
+    padding: 5rem 3rem;
+    text-align: center;
+    position: relative;
+    border-radius: 2rem;
+}
+
+.card__img {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.card__name {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 3rem;
+}
+.card__job {
+    display: block;
+    font-size: 1.2rem;
+    color: $text-color;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #f3f3f3;
+}
+
+.card__evaluate {
+    font-size: 2rem;
+    color: $yellow;
+}
+
+.card__label {
+    background-color: $label-color;
+    width: 16rem;
+    height: 5rem;
+    @include flex(center, center);
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 500;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

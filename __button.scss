@@ -1,0 +1,22 @@
+.btn {
+    font-size: 1.6rem;
+    color: $title-color;
+    padding: 2rem 4rem;
+    border-radius: 2rem;
+    background-color: transparent;
+    display: inline-block;
+    &--primary {
+        color: white;
+        background-color: $primary-color;
+    }  
+    &--border {
+        color: #9ba9bc;
+        border: 1px solid;
+        transition: 0.3s;
+    }
+    &--hover:hover {
+        border: none;
+        background-color: $primary-color;
+        color: white;
+    }
+}

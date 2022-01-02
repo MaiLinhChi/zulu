@@ -1,0 +1,64 @@
+
+.list-plans {
+    display: flex;
+    justify-content: space-between;
+}
+.plan__item {
+    margin-top: 8rem;
+    border: 2px solid #f3f3f3;
+    border-radius: 1.6rem;
+    padding: 5rem 3rem;
+    width: calc(33.33% - 4.6rem);
+    display: flex;
+    flex-direction: column;
+}
+    
+.plan__title {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+.plan__price {
+    padding: 4rem 0;
+    border-bottom: 1px solid #f3f3f3;
+}
+.plan__sympho {
+    font-size: 2rem;
+    font-weight: 450;
+    vertical-align: top;
+    position: relative;
+    top: 0.5rem;
+}
+.plan__number {
+    font-size: 6rem;
+    font-weight: 500;
+}
+.plan__month {
+    font-size: 2rem;
+    font-weight: 450;
+}
+
+.feature-item {
+    @include flex(center);
+    padding-top: 3rem;
+}
+
+.feature-text {
+    font-size: 1.4rem;
+    line-height: 3rem;
+    color: #6e757c;
+    margin-left: 1rem;
+}
+
+.feature-icon {
+    font-size: 2.6rem;
+    color: #9ba9bc;
+}
+
+.btn-contain {
+    margin-top: auto;
+    padding-top: 6rem;
+    width: max-content;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}

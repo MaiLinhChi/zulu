@@ -1,0 +1,20 @@
+.intro {
+    margin-top: 15rem;
+    display: flex;
+    justify-content: space-between;
+    &__content {
+        padding-right: 10rem;
+    }
+}
+
+.block-action--left {
+    padding-left: 4rem;
+}
+
+.block-action--left::after {
+    display: none;
+}
+
+.block-action--left::before {
+    transform: none;
+}
